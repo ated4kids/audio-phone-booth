@@ -4,7 +4,7 @@ from pygame import mixer
 from pathlib import Path
 import os, random, time
 
-AUDIO_PATH = "/home/pi/audio/Audio"
+AUDIO_PATH = "/home/pi/audio/Audio/"
 AUDIO_NOT_FOUND_PATH = "/home/pi/audio/NOT_FOUND/"
 AUDIO_EXTENSION = ".mp3"
 
@@ -30,13 +30,13 @@ print("Waiting for keys...")
 track = ""
 
 def playAudio(audioFile):
-    if mixer.muxis.get_busy:
+    if mixer.music.get_busy:
         mixer.music.stop
     print("Playing {}".format(audioFile))
-    if not Path(audioFile).is_file:
+    if not Path(audioFile).is_file())
         files = os.listdir(AUDIO_NOT_FOUND_PATH)
         notFoundTrack = random.randrange(0, len(files))
-        playAudio(notFoundTrack)
+        playAudio(AUDIO_NOT_FOUND_PATH+notFoundTrack+AUDIO_EXTENSION)
     mixer.music.load(audioFile)
     mixer.music.play()
 
@@ -49,7 +49,8 @@ def printKey(key):
         track = ""
     elif key=="*":
         print("Reset")
-        mixer.music.stop
+        if mixer.music.get_busy:
+            mixer.music.stop
         track = ""
     else:
         track += key

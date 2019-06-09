@@ -33,7 +33,7 @@ def playAudio(audioFile):
     if mixer.music.get_busy:
         mixer.music.stop
     print("Playing {}".format(audioFile))
-    if not Path(audioFile).is_file()
+    if not Path(audioFile).is_file():
         files = os.listdir(AUDIO_NOT_FOUND_PATH)
         notFoundTrack = random.randrange(0, len(files))
         playAudio(AUDIO_NOT_FOUND_PATH+notFoundTrack+AUDIO_EXTENSION)

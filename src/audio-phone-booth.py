@@ -23,6 +23,7 @@ factory = rpi_gpio.KeypadFactory()
 
 keypad = factory.create_keypad(keypad=KEYPAD, row_pins=ROW_PINS, col_pins=COL_PINS)
 mixer.init()
+mixer.music
 
 print("Init done!")
 print("Waiting for keys...")
@@ -38,8 +39,11 @@ def playAudio(audioFile):
         notFoundTrack = files[random.randrange(0, len(files))]
         playAudio(AUDIO_NOT_FOUND_PATH+notFoundTrack)
     else:
-        mixer.music.load(audioFile)
-        mixer.music.play()
+        # mixer.music.load(audioFile)
+        # mixer.music.play()
+        sound = mixer.Sound(audioFile)
+        sound.set_volume(1.0)
+        sound.play()
 
 
 def printKey(key):

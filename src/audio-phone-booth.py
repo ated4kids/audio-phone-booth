@@ -37,8 +37,9 @@ def playAudio(audioFile):
         files = os.listdir(AUDIO_NOT_FOUND_PATH)
         notFoundTrack = files[random.randrange(0, len(files))]
         playAudio(AUDIO_NOT_FOUND_PATH+notFoundTrack)
-    mixer.music.load(audioFile)
-    mixer.music.play()
+    else:
+        mixer.music.load(audioFile)
+        mixer.music.play()
 
 
 def printKey(key):

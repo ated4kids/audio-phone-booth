@@ -14,4 +14,7 @@ git clone https://github.com/ated4kids/audio-phone-booth.git
 chmod +x audio-phone-booth/launcher.sh
 
 - avviare in automatico lo script al boot
-editare /etc/rc.local ed aggiungere come penultima riga (prima di exit 0) "/home/pi/audio-phone-booth/launcher.sh &"
+aggiungere in cron al reboot l'esecuzione dello script
+crontab -e
+@reboot /home/pi/audio-phone-booth/launcher.sh > /home/pi/script.log 2>&1 &
+

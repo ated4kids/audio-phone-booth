@@ -3,7 +3,7 @@
 ## Hardware necessario
 Ovviamente serve il telefono di Swisscom, ma oltre a quello servono i seguenti componenti, qui si fa riferimento a Distrelec come fornitore.
 
-* [Raspberry PI 3 Model B](https://www.distrelec.ch/en/raspberry-pi-model-1gb-ram-raspberry-pi-raspberry-pi/p/30085264)
+* [Raspberry PI 3 Model B+](https://www.distrelec.ch/en/raspberry-pi-model-1gb-ram-raspberry-pi-raspberry-pi-3b/p/30109158?mainId=30037321)
 * [Jumper Wires, Male to Female](https://www.distrelec.ch/en/jumper-wire-male-to-female-pack-of-10-pieces-150-mm-multicoloured-rnd-components-rnd-255-00013/p/30115111)
 * [Jumper Wires, Female to Female](https://www.distrelec.ch/en/jumper-wire-female-to-female-pack-of-10-pieces-150-mm-black-rnd-components-rnd-255-00010/p/30115108)
 * [Mono Jack Connector 3.5mm](https://www.distrelec.ch/en/mono-jack-connector-black-mm-male-rnd-connect-rnd-205-00618/p/30090513)

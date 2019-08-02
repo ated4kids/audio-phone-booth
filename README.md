@@ -9,6 +9,10 @@ Ovviamente serve il telefono di Swisscom, ma oltre a quello servono i seguenti c
 * [Mono Jack Connector 3.5mm](https://www.distrelec.ch/en/mono-jack-connector-black-mm-male-rnd-connect-rnd-205-00618/p/30090513)
 * [Modular Jack](https://www.distrelec.ch/en/modular-jack-bel-stewart-ss-6444-nf/p/14269430)
 
+In più servono:
+* alimentatore Micro-USB da 3A o un power bank USB
+* una MicroSD per il sistema operativo
+* chiavetta USB per i file audio
 
 ## Installazione
 Partire con una installazione base di Raspbian, anche la versione solo testo, al primo boot è più facile connetterla ad un monitor e tastiera.

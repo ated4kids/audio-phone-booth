@@ -43,7 +43,8 @@ sudo apt-get update && sudo apt-get -y upgrade && sudo apt -y autoremove
 ```
 * installare pacchetti aggiuntivi
 ```
-sudo apt-get install -y vim usbmount git espeak jack
+sudo apt-get install -y vim usbmount git espeak jack python3-pip python3-pygame
+pip3 install pad4pi
 ```
 
 * mettere la chiavetta USB in auto mount al boot
@@ -81,4 +82,13 @@ Rimuovere tutte le schede e cablaggi non necessari
 Tenere solo il cavo che esce dalla tastiera (1), quello del display (2) e quello della cornetta (3)
 ![Componenti da tenere](images/telefono_3.jpg)
 
+### Mappatura cavi e pin 
+Guardando le due seguenti foto si nota la numerazione che viene data ai PIN del cavo della tastiera e del RaspberryPI (porte GPIO)
+![Cavo tastiera](images/cable_1.jpg)
+![RaspberryPI GPIO](images/gpio.png)
 
+Quindi, seguendo lo schema successivo vediamo come andremo a collegare le due parti
+![Mapping Table](images/mapping.png)
+
+La tabella sopra rappresenta la tastiera del telefono
+![Tastiera telefono](images/tastiera_1.jpg)

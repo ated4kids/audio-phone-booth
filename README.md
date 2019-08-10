@@ -64,7 +64,7 @@ chmod +x audio-phone-booth/launcher.sh
 aggiungere in cron al reboot l'esecuzione dello script
 ```
 crontab -e
-@reboot /home/pi/audio-phone-booth/launcher.sh > /home/pi/script.log 2>&1 &
+@reboot sleep 10 /home/pi/audio-phone-booth/launcher.sh >> /home/pi/script.log 2>&1 &
 ```
 
 * spengere il Raspberry e riaccenderlo collegato al telefono (procedere prima con i passi seguenti)

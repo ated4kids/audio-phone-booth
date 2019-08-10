@@ -74,8 +74,10 @@ sudo halt
 ## Preparazione telefono
 ![Telefono completo](images/telefono_1.jpg)
 ### Rimozione componenti non necessari
+
 Rimuovere tutte le schede e cablaggi non necessari
 ![Telefono pulito](images/telefono_2.jpg)
+
 Tenere solo il cavo che esce dalla tastiera (1), quello del display (2) e quello della cornetta (3)
 ![Componenti da tenere](images/telefono_3.jpg)
 

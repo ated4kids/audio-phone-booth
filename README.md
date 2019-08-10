@@ -73,14 +73,14 @@ sudo halt
 ```
 
 ## Preparazione telefono
-![Telefono completo](images/telefono_1.jpg)
+<p align="center"><img src="images/telefono_1.jpg" alt="Telefono completa"/></p>
 
 ### Rimozione componenti non necessari
 Rimuovere tutte le schede e cablaggi non necessari
-![Telefono pulito](images/telefono_2.jpg)
+<p align="center"><img src="images/telefono_2.jpg" alt="Telefono pulito"/></p>
 
 Tenere solo il cavo che esce dalla tastiera (1), quello del display (2) e quello della cornetta (3)
-![Componenti da tenere](images/telefono_3.jpg)
+<p align="center"><img src="images/telefono_3.jpg" alt="Componenti da tenere"/></p>
 
 ### Mappatura cavi e pin 
 Guardando le due seguenti foto si nota la numerazione che viene data ai PIN del cavo della tastiera e del RaspberryPI (porte GPIO)
@@ -88,7 +88,14 @@ Guardando le due seguenti foto si nota la numerazione che viene data ai PIN del 
 <p align="center"><img src="images/gpio.png" alt="RaspberryPI GPIO"/></p>
 
 Quindi, seguendo lo schema successivo vediamo come andremo a collegare le due parti
-![Mapping Table](images/mapping.png)
+<p align="center"><img src="images/mapping.png" alt="Mapping Table"/></p>
 
 La tabella sopra rappresenta la matrice per i tasti del telefono
-![Tastiera telefono](images/tastiera_1.jpg)
+<p align="center"><img src="images/tastiera_1.jpg" alt="Tastiera Telefono"/></p>
+
+### Connessione cavi
+Prendere il mazzetto da 10 cavi  maschio-femmina e connetterli seguendo lo tabella vista sopra (per facilità seguite i colori riportati).
+<p align="center"><img src="images/raspberry_cablato.jpg" alt="RaspberryPI Cablato"/></p>
+<p align="center"><img src="images/cablaggio.jpg" alt="Cablaggio"/></p>
+Una volta verificato il corretto funzionamento potete anche fissare il cablaggio con della colla a caldo per evitare che si possano muovere.
+

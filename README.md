@@ -19,7 +19,7 @@ Nella chiavetta USB vanno create due directory:
 * *NOT_FOUND*: qui andranno dei file MP3 che saranno eseguiti nel caso di 'file audio non trovato'.
 
 ### Sistema Operativo
-Partire con una installazione base di [Raspbian](https://www.raspberrypi.org/downloads/raspbian/), anche la versione Lite (dettagli per l'installazione [qui](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)).
+Partire con una installazione di [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) in versione Lite (dettagli per l'installazione [qui](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)).
 
 ### Configurare WiFi
 Al primo boot è più facile connetterla ad un monitor e tastiera. Se non li avete potete configurare il WiFi direttamente dalla SD, create un file *wpa_supplicant.conf*
@@ -72,3 +72,11 @@ sudo halt
 ```
 
 ## Preparazione telefono
+![Telefono completo](images/telefono_1.jpg)
+### Rimozione componenti non necessari
+Rimuovere tutte le schede e cablaggi non necessari
+![Telefono pulito](images/telefono_2.jpg)
+Tenere solo il cavo che esce dalla tastiera (1), quello del display (2) e quello della cornetta (3)
+![Componenti da tenere](images/telefono_3.jpg)
+
+

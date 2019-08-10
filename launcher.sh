@@ -3,7 +3,7 @@ sleep 10
 amixer set PCM 100%
 
 # If networking is detected, the IP address is spelled
-WLAN_IP=`ifconfig wlan0 | grep 'inet ' | awk '{ print $2 }'`
+WLAN_IP=`/sbin/ifconfig wlan0 | grep 'inet ' | awk '{ print $2 }'`
 if [[ -n "$WLAN_IP" ]]; then
     espeak "My IP address is $WLAN_IP" -s 100 --stdout | aplay
 fi

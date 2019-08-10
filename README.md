@@ -97,5 +97,10 @@ La tabella sopra rappresenta la matrice per i tasti del telefono
 Prendere il mazzetto da 10 cavi  maschio-femmina e connetterli seguendo lo tabella vista sopra (per facilità seguite i colori riportati).
 <p align="center"><img src="images/raspberry_cablato.jpg" alt="RaspberryPI Cablato"/></p>
 <p align="center"><img src="images/cablaggio.jpg" alt="Cablaggio"/></p>
-Una volta verificato il corretto funzionamento potete anche fissare il cablaggio con della colla a caldo per evitare che si possano muovere.
+Una volta verificato il corretto funzionamento potete anche fissare il cablaggio con della colla a caldo per evitare che si possano muovere o per permettervi di staccarli e riattacarli facilmente.
 
+### Connessione audio
+Aprite il connettore audio svitandolo, saldare un cavo a due fili, saldare all'altra estremità il modulo RJ11 e connettere il tutto come da figura.
+<p align="center"><img src="images/audio_jack.jpg" alt="Audio Jack"/></p>
+<p align="center"><img src="images/audio_rj11.jpg" alt="Audio RJ11"/></p>
+<p align="center"><img src="images/cablaggio_audio.jpg" alt="Audio Cablato"/></p>

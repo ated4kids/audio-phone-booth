@@ -84,11 +84,11 @@ Tenere solo il cavo che esce dalla tastiera (1), quello del display (2) e quello
 
 ### Mappatura cavi e pin 
 Guardando le due seguenti foto si nota la numerazione che viene data ai PIN del cavo della tastiera e del RaspberryPI (porte GPIO)
-![Cavo tastiera](images/cable_1.jpg)
-![RaspberryPI GPIO](images/gpio.png)
+<p align="center"><img src="images/cable_1.jpg" alt="Cavo tastiera"/></p>
+<p align="center"><img src="images/gpio.png" alt="RaspberryPI GPIO"/></p>
 
 Quindi, seguendo lo schema successivo vediamo come andremo a collegare le due parti
 ![Mapping Table](images/mapping.png)
 
-La tabella sopra rappresenta la tastiera del telefono
+La tabella sopra rappresenta la matrice per i tasti del telefono
 ![Tastiera telefono](images/tastiera_1.jpg)

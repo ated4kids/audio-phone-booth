@@ -43,7 +43,7 @@ sudo apt-get update && sudo apt-get -y upgrade && sudo apt -y autoremove
 ```
 * installare pacchetti aggiuntivi
 ```
-sudo apt-get install -y vim usbmount git espeak jack python3-pip python3-pygame
+sudo apt-get install -y vim usbmount git espeak python3-pip python3-pygame
 pip3 install pad4pi
 ```
 

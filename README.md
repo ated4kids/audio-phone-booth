@@ -98,9 +98,15 @@ Prendere il mazzetto da 10 cavi  maschio-femmina e connetterli seguendo lo tabel
 <p align="center"><img src="images/raspberry_cablato.jpg" alt="RaspberryPI Cablato"/></p>
 <p align="center"><img src="images/cablaggio.jpg" alt="Cablaggio"/></p>
 Una volta verificato il corretto funzionamento potete anche fissare il cablaggio con della colla a caldo per evitare che si possano muovere o per permettervi di staccarli e riattacarli facilmente.
+<p align="center"><img src="images/cablaggio_colla.jpg" alt="Cablaggio"/></p>
 
 ### Connessione audio
 Aprite il connettore audio svitandolo, saldare un cavo a due fili, saldare all'altra estremità il modulo RJ11 e connettere il tutto come da figura.
 <p align="center"><img src="images/audio_jack.jpg" alt="Audio Jack"/></p>
 <p align="center"><img src="images/audio_rj11.jpg" alt="Audio RJ11"/></p>
 <p align="center"><img src="images/cablaggio_audio.jpg" alt="Audio Cablato"/></p>
+
+### Assemblaggio finale
+Trovate una posizione a voi comoda per posizionare il RaspberryPI (possibilmente in una sua cover)
+<p align="center"><img src="images/assemblaggio_finale_2.jpg" alt="Assemblaggio Finale"/></p>
+<p align="center"><img src="images/assemblaggio_finale.jpg" alt="Assemblaggio Finale"/></p>

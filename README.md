@@ -15,7 +15,7 @@ Ovviamente serve il telefono di Swisscom, ma oltre a quello servono i seguenti c
 ## Installazione
 ### Audio files
 Nella chiavetta USB vanno create due directory:
-* *Audio*: qui andranno i vari file audio in formato MP3, il nome del file deve essere un numero e l'estensione *'.mp3'*, quindi saranno accettati file come 3.mp3, 004.mp3, 090.mp3, 1123455442123.mp3, etc.
+* *Audio*: qui andranno i vari file audio in formato MP3, il nome del file deve iniziare con un numero e avere l'estensione *'.mp3'*, quindi saranno accettati file come 3.mp3, 3_storia1.mp3, 004.mp3, 004#Peter Pan.mp3, 090.mp3, 1123455442123.mp3, etc.
 * *NOT_FOUND*: qui andranno dei file MP3 che saranno eseguiti nel caso di 'file audio non trovato'.
 
 ### Sistema Operativo

@@ -1,8 +1,8 @@
-
 from pad4pi import rpi_gpio
 from pygame import mixer
 from pathlib import Path
 import os, random, time
+import glob
 
 AUDIO_PATH = "/home/pi/audio/Audio/"
 AUDIO_NOT_FOUND_PATH = "/home/pi/audio/NOT_FOUND/"
@@ -30,10 +30,15 @@ print("Waiting for keys...")
 
 track = ""
 
-def playAudio(audioFile):
+def playAudio(track):
     if mixer.music.get_busy():
         mixer.music.stop()
-    print("Playing {}".format(audioFile))
+    # get all the files with name starting with the track 
+    matching_files = glob.glob( AUDIO_PATH+track+'*' )
+    matching_files.sort()
+    print("Playing {}".format(matching_files[0]))
+
+    audioFile = matching_files[0]
     if not Path(audioFile).is_file():
         files = os.listdir(AUDIO_NOT_FOUND_PATH)
         notFoundTrack = files[random.randrange(0, len(files))]
@@ -43,12 +48,11 @@ def playAudio(audioFile):
         mixer.music.set_volume(1.0)
         mixer.music.play()
 
-
 def printKey(key):
     global track
     print(key)
     if key=="#":
-        playAudio(AUDIO_PATH+track+AUDIO_EXTENSION)
+        playAudio(track)
         track = ""
     elif key=="*":
         print("Reset")

@@ -17,7 +17,7 @@ KEYPAD = [
 ]
 
 COL_PINS = [4, 14, 15, 17, 18]
-ROW_PINS = [22, 23, 24, 25, 8]
+ROW_PINS = [22, 23, 27, 25, 8]
 
 factory = rpi_gpio.KeypadFactory()
 

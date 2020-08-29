@@ -41,7 +41,7 @@ def playAudio(audioFile):
         playAudio(AUDIO_NOT_FOUND_PATH+notFoundTrack)
     else:
         mixer.music.load(audioFile)
-        mixer.music.set_volume(0.5)
+        mixer.music.set_volume(0.2)
         mixer.music.play()
 
 
@@ -58,7 +58,12 @@ def printKey(key):
         track = ""
     elif key=="Volume":
         print("Volume UP")
-        mixer.music.set_volume(mixer.music.get_volume() + 0.1)
+        volume = mixer.music.get_volume()
+        if volume < 1:
+            mixer.music.set_volume(volume + 0.1)
+            print("Increasing volume from {} to {}".format(volume,  mixer.music.get_volume()))
+        else:
+            print("Volume already at max!")
     else:
         track += key
         print("track: ", track)

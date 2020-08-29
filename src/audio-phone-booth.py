@@ -26,6 +26,7 @@ mixer.init()
 mixer.music
 
 print("Init done!")
+print("Initial volume is ", mixer.music.get_volume())
 print("Waiting for keys...")
 
 track = ""
@@ -40,7 +41,7 @@ def playAudio(audioFile):
         playAudio(AUDIO_NOT_FOUND_PATH+notFoundTrack)
     else:
         mixer.music.load(audioFile)
-        mixer.music.set_volume(1.0)
+        mixer.music.set_volume(0.5)
         mixer.music.play()
 
 
@@ -55,6 +56,9 @@ def printKey(key):
         if mixer.music.get_busy():
             mixer.music.stop()
         track = ""
+    elif key=="Volume":
+        print("Volume UP")
+        mixer.music.set_volume(mixer.music.get_volume() + 0.1)
     else:
         track += key
         print("track: ", track)
